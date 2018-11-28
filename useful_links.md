@@ -10,3 +10,6 @@
 [Kaggle](https://www.kaggle.com/)
 
 [log2bas2](https://www.log2base2.com/index.html)
+
+[PDF](http://gen.lib.rus.ec/)
+
