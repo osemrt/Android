@@ -13,3 +13,7 @@
 
 [PDF](http://gen.lib.rus.ec/)
 
+[lynda](https://www.lynda.com/)
+
+
+
