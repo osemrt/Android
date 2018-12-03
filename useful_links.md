@@ -17,3 +17,6 @@
 
 [udacity](https://www.udacity.com/)
 
+[Hamming Code](https://www.youtube.com/watch?v=373FUw-2U2k)
+
+
