@@ -19,4 +19,4 @@
 
 [Hamming Code](https://www.youtube.com/watch?v=373FUw-2U2k)
 
-
+[Hamming Code](https://www.youtube.com/watch?v=373FUw-2U2k)
