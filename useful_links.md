@@ -20,3 +20,7 @@
 [Hamming Code](https://www.youtube.com/watch?v=373FUw-2U2k)
 
 [Sorting Algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg)
+
+[Streams and Buffers](https://www.youtube.com/watch?v=GlybFFMXXmQ)
+
+[Streams](https://www.youtube.com/watch?v=wYSNqRIoFrI)
