@@ -31,6 +31,10 @@ int main() {
 	char* name = "Thomas";
 	int age = 23;
 	fprintf(fp,"%s %d", name, age);
+	
+	// we use write and read functions when our priority is speed!
+	size_t fwrite(&x, sizeof(x), y, FILE* stream);
+	int fread(&x, sizeof(x), y, FILE* stream);
 
 	// get the data from the file with format specifications. (fscanf)
 	char test[10];
