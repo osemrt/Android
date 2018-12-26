@@ -28,3 +28,5 @@
 [Steam vs Buffer]https://www.codingdefined.com/2015/12/difference-between-buffering-and.html
 
 https://www.youtube.com/watch?v=kPRA0W1kECg
+
+https://papaly.com/login
