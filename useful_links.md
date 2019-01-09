@@ -29,4 +29,4 @@
 
 https://www.youtube.com/watch?v=kPRA0W1kECg
 
-https://papaly.com/login
+https://papaly.com/
