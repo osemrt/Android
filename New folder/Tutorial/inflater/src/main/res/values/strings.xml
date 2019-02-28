@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textView1">ONE</string>
+    <string name="textView2">TWO</string>
+    <string name="textView3">THREE</string>
+</resources>
