@@ -111,15 +111,136 @@ package com.example.extra;
     You can receive the extras in a bundle:
         Bundle bundle = intent.getExtras();
         String data = bundle.getString("key1");
-
-
-
-
 ----------------------------------------------------------------------------------------------------
-
+    ■ Screen size?
+    Physical size measured along diagonal
+    4 general size: small, normal, large, extra-large
+    ■ Screen resolution?
+    Number of pixels on the screen
+    and do not work with screen resolution
+    work only with screen size and screen density for cross device support
+    ■ Scaled pixels?
+    A virtual pixel scaled according to density and user font preference
+    ■ Screen density?
+    Number of pixels in an inch known as dpi(dots per inch)or ppi(pixels per inch)
+    4 general densities: ldpi, mdpi, hdpi, xhdpi
+    and every android device has a different density
+    ■ Android User Interface Measurement Units
+    mm -> based on physical screen size
+    in -> based on physical screen size
+    pt -> 1/72 of inch based on physical screen size
+    dp -> based on 160 dpi screen and scaled appropriately for other devices
+    sp -> for fonts based on user font preference
+    px -> based on physical screen size
 ----------------------------------------------------------------------------------------------------
-
+    ■ About UI terminology
+    px = one physical dot on screen represents a pixel
+    dp = density-independent pixels (pixel unit that is independent )
+    sp = scaled pixel
+    dpi = dots per inch
 ----------------------------------------------------------------------------------------------------
+    ■ Fragments
+    There are two ways that are either statically or dynamically to create a fragment.
+    It has its own lifecycle. It can be added or removed while the activity runs.
+    Statically: you add xml file before runtime!
+    Dynamically: you add one or more activities to fragment in the runtime.
+
+    Combine several fragments in a single Activity
+    Reuse the same Fragment across several Activities
+    Make better use of larger screen space on tablets
+    Support different layouts on portrait and landscape modes
+
+    Uses of fragments
+    1) Flexible user interfaces across different screen sizes
+    2) Fixed/Scrolling/Swipe tab displays
+    3) Dialog boxes
+    4) Action Bar customization with the list and tab modes
+
+
+    Creating a fragment
+    1) Extend Fragment class
+    2) Provide appearance in XML/Java
+    3) Override onCrateView to link the appearance
+    4) Use the Fragment in XML/Java
+
+
+              Activity         |      Fragment       |   onAttach() is called after Fragment is
+    ===========================|=====================|   associated with its Activity gets a
+     1)   onCrate()            |                     |   reference to the Activity object which
+     2)                        |     onAttach()      |   can be used as Context.
+     3)   onAttachFragment()   |                     |
+     4)                        |     onCreate()      |   onCrate() do not use onCreate() to access
+     5)                        |    onCrateView()    |   View hierarchy because Activity's onCreate()
+     6)                        |  onActivityCrated() |   may/may not be finished. Crate background
+     7)   onStart()            |                     |   threads here for long running operations
+     8)                        |      onStart()      |
+     9)   onResume()           |                     |   onCreateView() you are expected to return
+    10)                        |     onResume()      |   a View hierarchy for your fragment
+
+                                                         onActivityCreated() called after Activity
+                                                         onCrate() has completed execution. Use this
+                                                         method to access/modify UI elements.
+
+
+              Activity         |      Fragment       |   onSaveInstanceState() use this to save
+    ===========================|=====================|   information inside a Bundle object
+     1)                        |      onPause()      |
+     2)    onPause()           |                     |   onDestroyView called after the fragment
+     3)                        |  onSaveInstance()   |   View hierarchy is no longer accessible
+     4)  onSaveInstance()      |                     |
+     5)                        |  onStop()           |
+     6)    onStop()            |                     |
+     7)                        |  onDestroyView()    |
+     8)                        |  onDestroy()        |
+     9)                        |  onDetach()         |
+    10)     onDestroy()        |                     |
+
+
+    onAttach
+
+    onCrate
+
+    onCreateView
+
+    onStartActivity
+
+    onStart
+
+    onResume
+
+    onPause
+
+    onStop
+
+    onDeployView
+
+    onDeploy
+
+    onDetach
+
+
+
+
+    FragmentManager     -> Use method from Activity to get FragmentManager
+    FragmentTransaction -> user beginTransaction() and add/remove/replace
+
+    Every activity has its own FragmentManager accessible through getFragmentManger()
+    It maintains references to all fragments inside the Activity.
+    Use findFragmentById() or findFragmentByTag() to get reference to a particular fragment
+
+    Activity back stack is managed by ActivityManager
+    Fragment back stack is managed by FragmentManager
+
+    You can use Fragments on older devices using a Support Library from 1.6 to 2.3
+
+    Transaction types:
+    -> Add
+    -> Remove
+    -> Replace
+    -> Attach
+    -> Detach
+    -> Show
+    -> Hide
 
 
 ----------------------------------------------------------------------------------------------------
