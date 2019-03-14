@@ -19,6 +19,14 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
     private String sender;
     private Button button1;
 
+
+    @Override
+    public void onCreate(@androidx.annotation.Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.e("OSE", "onCreate");
+
+    }
+
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -29,15 +37,19 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
         button1 = (Button) getActivity().findViewById(R.id.button1);
         button1.setOnClickListener(this);
 
-    }
 
+
+    }
 
 
     //this block is different from part2
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-       // outState.putString(textView.getText().toString(), "textView");
+
+        outState.putString("textView", textView.getText().toString());
+        Log.e("OSE", "onSavInstanceState");
+
     }
     //////////////////////
 
@@ -46,8 +58,14 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_first, container, false);
 
+        //whenever the application is launched at the first time, it will be null!
+        if(savedInstanceState!=null){
+            String s = savedInstanceState.getString("textView");
+            TextView tmp = (TextView) view.findViewById(R.id.textView1);
+            tmp.setText(s);
+        }
 
-        Log.e("OSE", textView.getText().toString());
+
         return view;    }
 
 

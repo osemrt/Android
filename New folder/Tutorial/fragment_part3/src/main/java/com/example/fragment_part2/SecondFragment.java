@@ -31,8 +31,20 @@ public class SecondFragment extends Fragment implements View.OnClickListener {
     }
 
     @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("textView", textView.getText().toString());
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_second, container, false);
+        View view = inflater.inflate(R.layout.fragment_second, container, false);
+
+        if(savedInstanceState!=null){
+            ((TextView)view.findViewById(R.id.textView2)).setText(savedInstanceState.getString("textView"));
+        }
+
+        return view;
     }
 
     public void setTextView(String string){
