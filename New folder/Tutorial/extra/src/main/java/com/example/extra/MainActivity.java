@@ -14,6 +14,9 @@ package com.example.extra;
     to access an application all resources
     to interact with other application components by sending messages
     to access an application Environmental information
+
+    A context object is a way to access the resources and platform services inside the android
+    context is the superclass of an activity
 ----------------------------------------------------------------------------------------------------
     ■ a xml file format:
     <?xml version="..." encoding="..."?>
