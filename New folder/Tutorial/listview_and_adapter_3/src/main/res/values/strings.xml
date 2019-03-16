@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="titles">
+        <item>Title 1</item>
+        <item>Title 2</item>
+        <item>Title 3</item>
+        <item>Title 4</item>
+        <item>Title 5</item>
+        <item>Title 6</item>
+        <item>Title 7</item>
+        <item>Title 8</item>
+        <item>Title 9</item>
+        <item>Title 10</item>
+        <item>Title 11</item>
+        <item>Title 12</item>
+        <item>Title 13</item>
+        <item>Title 14</item>
+        <item>Title 15</item>
+        <item>Title 16</item>
+        <item>Title 17</item>
+        <item>Title 18</item>
+        <item>Title 19</item>
+        <item>Title 20</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>This is description 1</item>
+        <item>This is description 2</item>
+        <item>This is description 3</item>
+        <item>This is description 4</item>
+        <item>This is description 5</item>
+        <item>This is description 6</item>
+        <item>This is description 7</item>
+        <item>This is description 8</item>
+        <item>This is description 9</item>
+        <item>This is description 10</item>
+        <item>This is description 11</item>
+        <item>This is description 12</item>
+        <item>This is description 13</item>
+        <item>This is description 14</item>
+        <item>This is description 15</item>
+        <item>This is description 16</item>
+        <item>This is description 17</item>
+        <item>This is description 18</item>
+        <item>This is description 19</item>
+        <item>This is description 20</item>
+    </string-array>
+
+</resources>

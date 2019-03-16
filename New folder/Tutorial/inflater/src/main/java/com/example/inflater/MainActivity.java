@@ -11,21 +11,18 @@ import android.widget.LinearLayout;
 import java.util.zip.Inflater;
 
 /**
- *
  * Converting XML appearance definition to View definition in code is called "inflation"
  * (Very time consuming operation!)
- *
+ * <p>
  * Use the getSystemService() or getLayoutInflater() to create an object of LayoutInflater
  * Only precompiled XML files by the APPT can be inflated during runtime for performance
- *
+ * <p>
  * LayoutInflater layoutInflater = getLayoutInflater();
  * View view = layoutInflater.inflate(int resource, ViewGroup parent);
- *
+ * <p>
  * view = the root view representing resource(= also the root in the XML)
  * resource = name of XML layout file that you want to inflate
  * parent(optional) = a layout that you would use as a parent for view in the ViewHierarchy
- *
- *
  */
 
 public class MainActivity extends Activity {
@@ -55,14 +52,6 @@ public class MainActivity extends Activity {
         linearLayout1.addView(view);
 
         //how can I access the sub node inside of the view?
-
-
-
-
-
-
-
-
 
 
     }

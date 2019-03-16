@@ -8,8 +8,6 @@ import android.util.Log;
 
 /**
  * Communication between two fragments
- *
- *
  */
 
 public class MainActivity extends Activity implements Communicator {
@@ -32,10 +30,10 @@ public class MainActivity extends Activity implements Communicator {
     public void respond(String string) {
         String[] tokens;
         tokens = string.split(" ", 2);
-        if(!tokens[1].equalsIgnoreCase("")){
-            if("FirstFragment".equalsIgnoreCase(tokens[0])){
+        if (!tokens[1].equalsIgnoreCase("")) {
+            if ("FirstFragment".equalsIgnoreCase(tokens[0])) {
                 secondFragment.setTextView(tokens[1]);
-            }else if("SecondFragment".equalsIgnoreCase(tokens[0])){
+            } else if ("SecondFragment".equalsIgnoreCase(tokens[0])) {
                 firstFragment.setTextView(tokens[1]);
             }
 

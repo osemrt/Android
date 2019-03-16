@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="message">Please, enter a percentage value: </string>
+    <string name="hint">eg. 62%</string>
+</resources>
