@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
         LinearLayout linearLayout2 = findViewById(R.id.linearLayout2);
         //LinearLayout linearLayout3 = findViewById(R.id.linearLayout3);
 
-        //add the first frame in which is a root to the activity_main.xml
+        //add the first frame in which is a root to the single_row.xml
         view = layoutInflater.inflate(R.layout.activity_test, null);
         linearLayout1.addView(view);
 
