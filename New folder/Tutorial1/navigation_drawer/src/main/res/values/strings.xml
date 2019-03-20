@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_message">Message</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_send">Send</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_communicate">Communicate</string>
+
+    <string name="nav_header_title">Mert ÖZ</string>
+    <string name="nav_header_email">ozm6378@gmail.com</string>
+</resources>

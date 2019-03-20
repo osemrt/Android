@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tutorial2</string>
+    <string name="navigation_profile">Profile</string>
+    <string name="navigation_chat">Chat</string>
+    <string name="navigation_message">Message</string>
+    <string name="navigation_communicate">Communicate</string>
+    <string name="navigation_send">Send</string>
+    <string name="navigation_share">Share</string>
+    <string name="navigation_header_title">Mert ÖZ</string>
+    <string name="navigation_header_email">ozm6378@gmail.com</string>
+    <string name="open_drawer_content_description">Open Drawer Content Description</string>
+    <string name="close_drawer_content_description">Close Drawer Content Description</string>
+    <string name="fragment_chat">CHAT</string>
+    <string name="fragment_message">MESSAGE</string>
+    <string name="fragment_profile">PROFILE</string>
+</resources>
