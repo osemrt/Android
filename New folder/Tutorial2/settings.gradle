@@ -1,1 +1,1 @@
-include ':navigation_drawer'
+include ':navigation_drawer', ':bottom_navigation_viw'

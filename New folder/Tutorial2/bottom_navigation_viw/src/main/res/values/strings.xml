@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_bottom_home_title">Home</string>
+    <string name="navigation_bottom_favorites_title">Favorites</string>
+    <string name="navigation_bottom_search_title">Search</string>
+    <string name="fragment_favorites">Favorites</string>
+    <string name="fragment_home">Home</string>
+    <string name="fragment_search">Search</string>
+</resources>
