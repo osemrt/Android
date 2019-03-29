@@ -1,0 +1,43 @@
+
+
+
+/*
+    This page uses APIs from on the Android Support Library, so you need to add the following dependencies to your apps module's build.gradle file:
+
+        dependencies {
+             implementation 'com.android.support:appcompat-v7:28.0.0'
+             implementation 'com.android.support:design:28.0.0'
+        }
+
+    //
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view"
+
+
+
+ */
+
+to see your navigation view on the Display tab
+----------------------------------------------
+xmlns:tools="http://schemas.android.com/tools"
+tools:showIn="navigation_view"
+
+
+ java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.tutorial2/com.example.tutorial2.Main}: java.lang.IllegalArgumentException: AppCompat does not support the current theme features: { windowActionBar: false, windowActionBarOverlay: false, android:windowIsFloating: false, windowActionModeOverlay: false, windowNoTitle: false }
+ -------------------
+<item name="windowActionBar">false</item>
+<item name="windowNoTitle">true</item>
+
+these two text is for the googleVoice
+------------------------
+ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.open_drawer_content_description, R.string.close_drawer_content_description);
+
+
+
+to do transparent the statusBar
+------------------------------
+<style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>

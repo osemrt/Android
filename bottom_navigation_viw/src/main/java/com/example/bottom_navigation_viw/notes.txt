@@ -1,0 +1,24 @@
+/*
+    This page uses APIs from on the Android Support Library, so you need to add the following dependencies to your apps module's build.gradle file:
+
+        dependencies {
+             implementation 'com.android.support:appcompat-v7:28.0.0'
+             implementation 'com.android.support:design:28.0.0'
+        }
+
+    //
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view"
+
+
+
+ */
+
+
+
+
+ BottomNavigationView has transparent layout
+ set a theme or background to change it
+ ---------------------------------------
+ android:background="?android:attr/windowBackground"
+ when you want to change the app color, also automatically the bottom navigation view is changed thanks to the above attribute

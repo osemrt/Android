@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button_text">Close</string>
+    <string-array name="countries">
+        <item>Democratic Republic of Congo</item>
+        <item>Ireland</item>
+        <item>South Sudan</item>
+        <item>Somalia</item>
+        <item>Trinidad and Tobago</item>
+        <item>Turkey</item>
+        <item>Palestine</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Guyana</item>
+        <item>Indonesia</item>
+        <item>Liberia</item>
+        <item>Estonia</item>
+        <item>Italy</item>
+        <item>Iceland</item>
+        <item>Australia</item>
+        <item>Senegal</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>China</item>
+        <item>Algeria</item>
+    </string-array>
+</resources>

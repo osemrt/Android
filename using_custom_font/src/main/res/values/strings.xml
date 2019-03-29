@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textView_message">Android!</string>
+    <string name="textView2_message">Holla!</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="heroes">
+        <item>Superman</item>
+        <item>Batman</item>
+        <item>Hulk</item>
+    </string-array>
+
+</resources>

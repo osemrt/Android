@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    style="@style/AppTheme">
+
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/app_name"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="@color/WhiteSmoke"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/Gray"
+        android:textColor="@color/Gray"
+        android:hint="@string/email_or_phone"
+        android:layout_below="@id/logo"
+        android:background="@color/WhiteSmoke"
+        android:padding="10sp"
+        android:layout_marginBottom="20dp"/>
+
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/Gray"
+        android:textColor="@color/Gray"
+        android:hint="@string/password"
+        android:layout_below="@id/edit_text"
+        android:inputType="textPassword"
+        android:background="@color/WhiteSmoke"
+        android:padding="10sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:background="@color/ButtonBgColor"
+        android:textColor="@color/WhiteSmoke"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/recommend_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/button"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+
+        android:gravity="center"
+        android:text="@string/recommend_for_signup"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Question_Button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/ic_question_answer_black_24dp" />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
