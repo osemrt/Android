@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="monster_names">
+        <item>Hodag</item>
+        <item>Dybbuk</item>
+        <item>Sasquatch</item>
+        <item>Nix</item>
+        <item>Guytrash</item>
+        <item>Wyvern</item>
+        <item>Windigo</item>
+        <item>Kraken</item>
+        <item>Snallygaster</item>
+        <item>Werewolf</item>
+        <item>Tommy-knocker</item>
+        <item>Windigo</item>
+    </string-array>
+
+    <string-array name="monster_descriptions">
+        <item>a mythical animal reported chiefly from Wisconsin and Minnesota, noted for its ugliness, lateral horns, and hooked tail, and reputed to be outstanding in both ferocity and melancholy</item>
+        <item>an evil spirit or the wandering soul of a dead person believed in Jewish folklore to enter and control a living body until exorcised by a religious rite</item>
+        <item>a hairy creature like a human being that is reported to exist in the northwestern U.S. and western Canada and is said to be a primate between 6 and 15 feet (1.8 and 4.6 meters) tall — called also bigfoot</item>
+        <item>a supernatural creature originally in Germanic folklore and conceived of in many forms but usually as having the form of a woman or as half human and half fish, dwelling in fresh water usually in a beautiful palace, and usually unfriendly to man</item>
+        <item>a specter or ghost especially in the form of an animal</item>
+        <item>a fabulous animal usually represented as a 2-legged winged creature resembling a dragon</item>
+        <item>a three-headed dog that in Greek mythology guards the entrance to Hades</item>
+        <item>a cannibalistic creature of Algonquian mythology believed to have been a lost hunter forced by hunger to eat human flesh and thereafter to have become a crazed man-eating ogre roaming the forest</item>
+        <item>a fabulous Scandinavian sea monster perhaps imagined on the basis of chance sightings of giant squids</item>
+        <item>a grotesque creature that drinks the blood of livestock and is reported to exist in North and South America</item>
+        <item>a mythical nocturnal creature that is reported chiefly from rural Maryland, is reputed to be part reptile and part bird, and is said to prey on poultry and children</item>
+        <item>a person transformed temporarily or permanently into a wolf or capable of assuming a wolf\'s form</item>
+    </string-array>
+
+</resources>
